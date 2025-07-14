@@ -6,7 +6,7 @@ import joblib
 import streamlit as st
 
 # Load the model and column structure using joblib
-model = joblib.load("pollution_model.pkl")
+model = joblib.load("pollution_model_compressed.pkl")
 model_cols = joblib.load("model_columns.pkl")
 
 # Streamlit app UI
